@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Diamond CMS</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="./css/style.css" />
+		<script
+			src="https://kit.fontawesome.com/94c604aee3.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+
+	<body>
+		<div class="panel">
+			<div class="row m-0 h-100">
+				<div class="panel-left col-2 p-0 px-4 text-white text-center">
+					<section class="date-box">
+						<p class="mb-0 day">Thursday</p>
+						<p class="mb-0 time">12:00</p>
+						<p class="mb-0 date text-muted">01/09/2022</p>
+					</section>
+					<nav class="menu">
+						<a href="index.html">
+							<div class="menu-item">
+								<i class="fas fa-sliders-h"></i>
+								<p>main page</p>
+							</div>
+						</a>
+						<a href="posts.html">
+							<div class="menu-item">
+								<i class="far fa-comments"></i>
+								<p>posts</p>
+							</div>
+						</a>
+						<a href="users.html" class="active">
+							<div class="menu-item">
+								<i class="fas fa-user-friends"></i>
+								<p>users</p>
+							</div>
+						</a>
+					</nav>
+					<section class="info-box mt-3">
+						<h3>Diamond CMS</h3>
+						<p class="text-muted">&copy; Copyright 2022</p>
+					</section>
+				</div>
+
+				<div class="panel-right col-10 p-0 text-light text-center posts">
+					<section class="info-top my-4 pt-5">
+						<h1>Users</h1>
+					</section>
+                    <div class="row m-0">
+                        <div class="col-8 py-5 ps-5">
+                            <section class="users-main">
+                                <ul class="list-group ms-3 mb-5">
+                                    <div class="row m-0">
+                                        <li
+                                            class="list-group-item bg-transparent text-light d-flex justify-content-between"
+                                        >
+                                            Robert Lewandowski
+                                            <button
+                                                class="col-2 btn btn-outline-light p-0 m-0"
+                                                data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal"
+                                            >
+                                                Edit profile
+                                            </button>
+                                        </li>
+    
+                                        <li
+                                            class="list-group-item bg-transparent text-light d-flex justify-content-between"
+                                        >
+                                            Mariusz Pudzianowski
+                                            <button
+                                                class="col-2 btn btn-outline-light p-0 m-0"
+                                                data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal"
+                                            >
+                                                Edit profile
+                                            </button>
+                                        </li>
+    
+                                        <li
+                                            class="list-group-item bg-transparent text-light d-flex justify-content-between"
+                                        >
+                                            Adam Małysz
+                                            <button
+                                                class="col-2 btn btn-outline-light p-0 m-0"
+                                                data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal"
+                                            >
+                                                Edit profile
+                                            </button>
+                                        </li>
+    
+                                        <li
+                                            class="list-group-item bg-transparent text-light d-flex justify-content-between"
+                                        >
+                                            Robert Kubica
+                                            <button
+                                                class="col-2 btn btn-outline-light p-0 m-0"
+                                                data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal"
+                                            >
+                                                Edit profile
+                                            </button>
+                                        </li>
+    
+                                        <li
+                                            class="list-group-item bg-transparent text-light d-flex justify-content-between"
+                                        >
+                                            Anita Włodarczyk
+                                            <button
+                                                class="col-2 btn btn-outline-light p-0 m-0"
+                                                data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal"
+                                            >
+                                                Edit profile
+                                            </button>
+                                        </li>
+    
+                                        <li
+                                            class="list-group-item bg-transparent text-light d-flex justify-content-between"
+                                        >
+                                            Justyna Kowalczyk
+                                            <button
+                                                class="col-2 btn btn-outline-light p-0 m-0"
+                                                data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal"
+                                            >
+                                                Edit profile
+                                            </button>
+                                        </li>
+    
+                                        <li
+                                            class="list-group-item bg-transparent text-light d-flex justify-content-between"
+                                        >
+                                            Iga Świątek
+                                            <button
+                                                class="col-2 btn btn-outline-light p-0 m-0"
+                                                data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal"
+                                            >
+                                                Edit profile
+                                            </button>
+                                        </li>
+    
+                                        <li
+                                            class="list-group-item bg-transparent text-light d-flex justify-content-between"
+                                        >
+                                            Otylia Jędrzejczak
+                                            <button
+                                                class="col-2 btn btn-outline-light p-0 m-0"
+                                                data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal"
+                                            >
+                                                Edit profile
+                                            </button>
+                                        </li>
+    
+                                        <li
+                                            class="list-group-item bg-transparent text-light d-flex justify-content-between"
+                                        >
+                                            Artur Szpilka
+                                            <button
+                                                class="col-2 btn btn-outline-light p-0 m-0"
+                                                data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal"
+                                            >
+                                                Edit profile
+                                            </button>
+                                        </li>
+    
+                                        <li
+                                            class="list-group-item bg-transparent text-light d-flex justify-content-between"
+                                        >
+                                            Kamil Stoch
+                                            <button
+                                                class="col-2 btn btn-outline-light p-0 m-0"
+                                                data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal"
+                                            >
+                                                Edit profile
+                                            </button>
+                                        </li>
+    
+                                        <li
+                                            class="list-group-item bg-transparent text-light d-flex justify-content-between"
+                                        >
+                                            Marcin Gortat
+                                            <button
+                                                class="col-2 btn btn-outline-light p-0 m-0"
+                                                data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal"
+                                            >
+                                                Edit profile
+                                            </button>
+                                        </li>
+    
+                                        <li
+                                            class="list-group-item bg-transparent text-light d-flex justify-content-between"
+                                        >
+                                            Jerzy Dudek
+                                            <button
+                                                class="col-2 btn btn-outline-light p-0 m-0"
+                                                data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal"
+                                            >
+                                                Edit profile
+                                            </button>
+                                        </li>
+                                    </div>
+                                </ul>
+                            </section>
+                            <nav
+                                aria-label="Page navigation example"
+                                class="d-flex justify-content-center py-4"
+                            >
+                                <ul class="pagination">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">1</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">2</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">3</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                        <div class="col-4 text-light user-search">
+                
+                            <section class="logo py-4">
+                                <p class="logo-text"><i class="far fa-gem"></i> DiamondSearch</p>
+                            </section>
+
+                            <form class="p-4">
+                                <div class="form-group mb-3">
+                                    <label for="one" class="form-label">User Name:</label>
+                                    <input type="text" class="form-control" id="one">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label for="two" class="form-label">Email Address:</label>
+                                    <input type="email" class="form-control" id="two">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label for="three" class="form-label">IP Address:</label>
+                                    <input type="text" class="form-control" id="three">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label for="four" class="form-label">
+                                        First Name and Last Name:</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label class="form-label">
+                                        Account Level:</label>
+                                    <select class="form-select">
+                                        <option selected>- select the account level -</option>
+                                        <option>One</option>
+                                        <option>Two</option>
+                                        <option>Three</option>
+                                        <option>Four</option>
+                                        <option>Five</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="btn-box d-flex justify-content-between mt-5">
+                                    <button type="submit" class="btn btn-outline-light py-3 px-4">Clear</button>
+                                    <button type="submit" class="btn btn-outline-light py-3 px-4">Search</button>
+                                </div>  
+                            </form>
+
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</div>
+
+        <div class="modal fade users-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              	<div class="modal-content p-3">
+                	<div class="modal-header">
+                        <h2>Profile Settings:</h2>
+                	</div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group mb-3">
+                                <label for="one" class="form-label">User Name:</label>
+                                <input type="text" class="form-control" id="one">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="three" class="form-label">Password:</label>
+                                <input type="password" class="form-control" id="three">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="two" class="form-label">Email Address:</label>
+                                <input type="email" class="form-control" id="two">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label class="form-label">
+                                    Account Level:</label>
+                                <select class="form-select">
+                                    <option selected>- select the account level -</option>
+                                    <option>One</option>
+                                    <option>Two</option>
+                                    <option>Three</option>
+                                    <option>Four</option>
+                                    <option>Five</option>
+                                </select>
+                            </div>
+    
+                            <label class="form-label">Newsletter:</label>
+                            <div class="d-flex ">
+                                <div class="form-check ms-3 me-5">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    <label class="form-check-label " for="exampleRadios1">
+                                      Yes
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                    <label class="form-check-label" for="two">No</label>
+                                </div>
+                            </div>
+    
+                            <div class="my-3 ms-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Block the account</label>
+                            </div>
+                        </form>
+                    </div>
+					<div class="modal-footer py-4">
+						<button type="button" class="btn btn-secondary py-3 px-4" data-bs-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary py-3 px-4">Save changes</button>
+					</div>
+              	</div>
+            </div>
+		</div>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
